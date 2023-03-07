@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Home from './components/Home';
+import Footer from './components/Footer';
+import Projects from './components/pages/Projects';
+import Experience from './components/pages/Experience';
+import Home from './components/pages/Home';
 
 /* NOTES:
   - without using routers do this, add <Navbar/> inside of div
@@ -24,6 +25,7 @@ function App() {
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/experience" element={<Experience/>}></Route>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
