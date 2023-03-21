@@ -24,19 +24,15 @@ const Home = () => {
         <ol className='list'>
           <il className='item'>
             <h4>Languages</h4>
-            <span>Java, Python, C++, C#</span>
+            <span>Java, Python, C++, C#, JavaScript</span>
           </il>
-        </ol>
-        <ol className='list'>
           <il className='item'>
             <h4>Technology</h4>
-            <span></span>
+            <span>React, Node.js, AutoCad</span>
           </il>
-        </ol>
-        <ol className='list'>
           <il className='item'>
             <h4>Coursework</h4>
-            <span></span>
+            <span>Advanced Programming Fundamentals, Application of Discrete Structures, Professional Communications for Engineers</span>
           </il>
         </ol>
       </div>
