@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Projects from './components/pages/Projects';
 import Experience from './components/pages/Experience';
 import Home from './components/pages/Home';
+import DisplayProject from './components/pages/DisplayProject';
 
 /* NOTES:
   - without using routers do this, add <Navbar/> inside of div
@@ -21,9 +22,10 @@ function App() {
         {/*ensures navbar stays on each page*/}
         <Navbar/>
         <Routes>
-          <Route path="/home" element={<Home/>}></Route>
+          <Route path="/" element={<Home/>}></Route>
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/experience" element={<Experience/>}></Route>
+          <Route path="/displayProject/:id" element={<DisplayProject/>}></Route>
         </Routes>
         <Footer/>
       </Router>
