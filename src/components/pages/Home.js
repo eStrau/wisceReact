@@ -28,7 +28,7 @@ const Home = () => {
           </il>
           <il className='item'>
             <h4>Technology</h4>
-            <span>React, Node.js, AutoCad</span>
+            <span>React, Node.js, AutoCad, Unity</span>
           </il>
           <il className='item'>
             <h4>Coursework</h4>
