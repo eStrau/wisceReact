@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const ProjectItem = ({image, name, id}) => {
   const navigate = useNavigate()
   return (
-    <div className='projectItem' onClick={() => {navigate("/wisceReact/displayproject/" + id)}}>
+    <div className='projectItem' onClick={() => {navigate("/displayproject/" + id)}}>
         <div style = {{backgroundImage: `url(${image})`}} className = 'bgImage'></div>  
         <h1>{name}</h1>
     </div>

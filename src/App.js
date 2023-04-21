@@ -23,9 +23,9 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/wisceReact" element={<Home/>}></Route>
-          <Route path="/wisceReact/projects" element={<Projects/>}></Route>
-          <Route path="/wisceReact/experience" element={<Experience/>}></Route>
-          <Route path="/wisceReact/displayProject/:id" element={<DisplayProject/>}></Route>
+          <Route path="/projects" element={<Projects/>}></Route>
+          <Route path="/experience" element={<Experience/>}></Route>
+          <Route path="/displayProject/:id" element={<DisplayProject/>}></Route>
         </Routes>
         <Footer/>
       </Router>
