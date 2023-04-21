@@ -22,7 +22,7 @@ function App() {
         {/*ensures navbar stays on each page*/}
         <Navbar/>
         <Routes>
-          <Route path="/wisceReact" element={<Home/>}></Route>
+          <Route path="/wisceReact/" element={<Home/>}></Route>
           <Route path="/wisceReact/projects" element={<Projects/>}></Route>
           <Route path="/wisceReact/experience" element={<Experience/>}></Route>
           <Route path="/wisceReact/displayProject/:id" element={<DisplayProject/>}></Route>
