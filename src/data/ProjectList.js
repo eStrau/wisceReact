@@ -10,7 +10,7 @@ export const ProjectList = [
         github: "https://github.com/eStrau"
     },
     {
-        name: "Project Name",
+        name: "comming soon",
         image: proj1,
         lang: "add language/tech",
         details: "add details",
