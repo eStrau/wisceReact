@@ -6,12 +6,12 @@
     align-items: center;
     flex-direction: column;
 }
-    /* .projects .projectTitle {
+    .projects .projectTitle {
     text-align: center;
-    color: #3E497A;
+    color: #7a3e74;
     font-size: 60px;
     font-weight: bolder;
-    } */
+    }
 .projectList {
     width: 70vw;
     height: auto;

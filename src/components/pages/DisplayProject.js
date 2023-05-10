@@ -14,8 +14,14 @@ const DisplayProject = () => {
       <h1>{project.name}</h1>
       <img src={project.image}/>
       <p>
-        <b>Skills: </b>
-        {project.skills}
+        <b>Language: </b>
+        <br/>
+        {project.lang}
+      </p>
+      <p>
+        <b>Details: </b>
+        <br/>
+        {project.details}
       </p>
       <GitHubIcon className='icons' onClick={() => window.open(project.github)}/>
     </div>

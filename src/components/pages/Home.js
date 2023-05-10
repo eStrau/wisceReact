@@ -32,7 +32,7 @@ const Home = () => {
           </il>
           <il className='item'>
             <h4>Coursework</h4>
-            <span>Advanced Programming Fundamentals, Application of Discrete Structures, Professional Communications for Engineers</span>
+            <span>Advanced Programming Fundamentals, Data Structures & Algorithms, Computer Organization, Application of Discrete Structures, Professional Communications for Engineers</span>
           </il>
         </ol>
       </div>
