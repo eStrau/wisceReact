@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wisceReact/static/css/main.32967612.css",
-    "main.js": "/wisceReact/static/js/main.a5d9b3aa.js",
+    "main.js": "/wisceReact/static/js/main.f29ec972.js",
     "static/js/787.636be25e.chunk.js": "/wisceReact/static/js/787.636be25e.chunk.js",
     "static/media/proj2.png": "/wisceReact/static/media/proj2.1860569ed13a2aa33a39.png",
     "index.html": "/wisceReact/index.html",
     "main.32967612.css.map": "/wisceReact/static/css/main.32967612.css.map",
-    "main.a5d9b3aa.js.map": "/wisceReact/static/js/main.a5d9b3aa.js.map",
+    "main.f29ec972.js.map": "/wisceReact/static/js/main.f29ec972.js.map",
     "787.636be25e.chunk.js.map": "/wisceReact/static/js/787.636be25e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32967612.css",
-    "static/js/main.a5d9b3aa.js"
+    "static/js/main.f29ec972.js"
   ]
 }
