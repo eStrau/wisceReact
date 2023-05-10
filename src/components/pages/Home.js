@@ -1,10 +1,10 @@
 import React from 'react'
-
 import "./Home.css"
-
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+
+// every time you want to push bc of updates make sure to do npm run deploy then push to github
 
 const Home = () => {
   return (
