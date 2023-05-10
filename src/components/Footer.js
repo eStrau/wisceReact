@@ -14,6 +14,7 @@ const Footer = () => {
         <GitHubIcon onClick={() => window.open('https://github.com/eStrau')}/>
         <EmailIcon onClick={() => window.location = 'mailto:strausselle01@gmail.com'}/>
       </div>
+      <p>© 2023 Elle Strauss</p>
     </div>
     
   )

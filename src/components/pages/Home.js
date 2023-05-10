@@ -18,7 +18,6 @@ const Home = () => {
           <EmailIcon onClick={() => window.location = 'mailto:strausselle01@gmail.com'}/>
         </div>
       </div>
-
       <div className='skills'>
         <h2>Skills</h2>
         <ol className='list'>

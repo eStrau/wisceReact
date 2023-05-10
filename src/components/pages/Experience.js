@@ -11,11 +11,11 @@ import EngineeringIcon from '@mui/icons-material/Engineering';
 const Experience = () => {
   return (
     <div>
-      <VerticalTimeline lineColor='#3e497a'>
+      <VerticalTimeline lineColor='#92374D'>
         <VerticalTimelineElement
           className="vertical-timeline-element--education" //function name inside of css styling they give us
           date = "August 2022 - Expected May 2026"
-          iconStyle={{background: "#8198FD", color: "#fff"}}
+          iconStyle={{background: "#E5C2C0", color: "#fff"}}
           icon = {<SchoolIcon/>}
         >
           <h3 className="vertical-timeline-element-title"> 
@@ -29,7 +29,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="June 2023 - August 2023"
-          iconStyle={{background: "#3e497a", color: "#fff"}}
+          iconStyle={{background: "#92374D", color: "#fff"}}
           icon = {<WorkIcon/>}
         >
           <h3 className="vertical-timeline-element-title"> 
@@ -44,7 +44,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May 2023 - Present"
-          iconStyle={{background: "#3e497a", color: "#fff"}}
+          iconStyle={{background: "#E5C2C0", color: "#fff"}}
           icon = {<EngineeringIcon/>}
         >
           <h3 className="vertical-timeline-element-title"> 
@@ -59,7 +59,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="August 2022 - Present"
-          iconStyle={{background: "#3e497a", color: "#fff"}}
+          iconStyle={{background: "#92374D", color: "#fff"}}
         >
           <h3 className="vertical-timeline-element-title"> 
             figure out

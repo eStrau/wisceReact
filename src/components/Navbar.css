@@ -2,8 +2,9 @@
     /*gives width, height and color*/
     width: 100%;
     height: 100px;
-    background: #21325E;
+    background: #EDC7CF;
     font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
 }
 
 .links {
@@ -12,12 +13,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #040926;
 }
 
 .navbar a {
-    color: white;
+    color: #040926;
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    font-weight: bold;
 }

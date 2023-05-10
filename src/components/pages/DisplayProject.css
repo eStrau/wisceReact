@@ -6,24 +6,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #92374D;
   }
   .project h1 {
     margin-top: 50px;
-    color: #7a3e6f;
-    font-size: 35px;
+    color: #EDC7CF;
+    font-size: 45px;
   }
   .project img {
     width: 700px;
     border-radius: 10px;
   }
   .project p {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    color: #3E497A;
+    color: #040926;
   }
   .project svg {
     font-size: 60px;
-    color: #3E497A;
+    color: #040926;
+    margin-bottom: 10px;
   }
   .project .icons:hover {
         color: black;

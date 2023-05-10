@@ -1,5 +1,5 @@
 import proj1 from '../images/proj1.jpg';
-import proj2 from '../images/proj2.png'
+import proj2 from '../images/proj2.png';
 
 export const ProjectList = [
     {
