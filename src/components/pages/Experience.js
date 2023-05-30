@@ -51,9 +51,9 @@ const Experience = () => {
             Teaching Assistant
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Girls Who Code Summer Immersion Program 
+            Girls Who Code | Summer Immersion Program 
           </h4>
-          {/* <p> - Add description</p> */}
+          <p> - Assisted students with Game Design focused projects that used p5.js</p>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
