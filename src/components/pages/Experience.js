@@ -28,21 +28,6 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="June 2023 - August 2023"
-          iconStyle={{background: "#92374D", color: "#fff"}}
-          icon = {<WorkIcon/>}
-        >
-          <h3 className="vertical-timeline-element-title"> 
-            Teaching Assistant
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Girls Who Code Summer Immersion Program 
-          </h4>
-          <p> - Add description</p>
-          <p> - add more</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
           date="May 2023 - Present"
           iconStyle={{background: "#E5C2C0", color: "#fff"}}
           icon = {<EngineeringIcon/>}
@@ -58,6 +43,21 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          date="June 2023 - Present"
+          iconStyle={{background: "#92374D", color: "#fff"}}
+          icon = {<WorkIcon/>}
+        >
+          <h3 className="vertical-timeline-element-title"> 
+            Teaching Assistant
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Girls Who Code Summer Immersion Program 
+          </h4>
+          <p> - Add description</p>
+          <p> - add more</p>
+        </VerticalTimelineElement>
+        {/* <VerticalTimelineElement
+          className="vertical-timeline-element--work"
           date="August 2022 - Present"
           iconStyle={{background: "#92374D", color: "#fff"}}
         >
@@ -69,7 +69,7 @@ const Experience = () => {
           </h4>
           <p> </p>
           <p> </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
     </div>
   )
