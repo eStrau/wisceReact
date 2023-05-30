@@ -39,7 +39,7 @@ const Experience = () => {
             UF Society of Women Engineers 
           </h4>
           <p> - Coordinate all-day event to recruit incoming freshman into SWE as well as introducing them to the College of Engineering and the various opportunities the University of Florida has to offer.</p>
-          <p> - add more later</p>
+          {/* <p> - add more later</p> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -53,8 +53,8 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             Girls Who Code Summer Immersion Program 
           </h4>
-          <p> - Add description</p>
-          <p> - add more</p>
+          {/* <p> - Add description</p>
+          <p> - add more</p> */}
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
