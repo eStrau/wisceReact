@@ -38,8 +38,9 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             UF Society of Women Engineers 
           </h4>
-          <p> - Coordinate all-day event to recruit incoming freshman into SWE as well as introducing them to the College of Engineering and the various opportunities the University of Florida has to offer.</p>
-          {/* <p> - add more later</p> */}
+          <p> • Coordinate an all-day event to recruit incoming freshman into SWE by introducing them to the College of Engineering and the various opportunities the University of Florida has to offer.</p>
+          <p> •	Host professional and student panels to provide insight into the industry and student life along with a major mentoring session and engineering club fair</p> 
+          {/* <p> </p> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -53,7 +54,10 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             Girls Who Code | Summer Immersion Program 
           </h4>
-          <p> - Assisted students with Game Design focused projects that used p5.js</p>
+          <p> • Assisted students with Game Design focused projects that used p5.js</p>
+          <p> •	Lead and facilitate breakout groups, which includes an advisory of 10-12 students each day to build culture and connection during the program</p>
+          <p> •	Support students in class through teaching mini lessons, demonstrations, and answering questions</p> 
+          <p> • Co-hosting Students Hours to assist with project questions and debugging and be actively engaging through discord to provide further support</p>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
