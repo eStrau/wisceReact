@@ -28,11 +28,11 @@ const Home = () => {
           </il>
           <il className='item'>
             <h4>Technology</h4>
-            <span>React, Node.js, AutoCad, Unity</span>
+            <span>React, Node.js, AutoCad, Unity, Figma, Git, p5.js, p5play.js</span>
           </il>
           <il className='item'>
             <h4>Coursework</h4>
-            <span>Advanced Programming Fundamentals, Data Structures & Algorithms, Computer Organization, Application of Discrete Structures, Professional Communications for Engineers</span>
+            <span>Advanced Programming Fundamentals, Data Structures & Algorithms, Computer Organization, Applications of Discrete Structures, Professional Communications for Engineers</span>
           </il>
         </ol>
       </div>
