@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wisceReact/static/css/main.32967612.css",
-    "main.js": "/wisceReact/static/js/main.941e6731.js",
+    "main.css": "/wisceReact/static/css/main.a7993c0a.css",
+    "main.js": "/wisceReact/static/js/main.d50fa963.js",
     "static/js/787.636be25e.chunk.js": "/wisceReact/static/js/787.636be25e.chunk.js",
     "static/media/proj1.png": "/wisceReact/static/media/proj1.1860569ed13a2aa33a39.png",
     "static/media/proj2.jpg": "/wisceReact/static/media/proj2.081d98d1a39990761f99.jpg",
     "index.html": "/wisceReact/index.html",
-    "main.32967612.css.map": "/wisceReact/static/css/main.32967612.css.map",
-    "main.941e6731.js.map": "/wisceReact/static/js/main.941e6731.js.map",
+    "main.a7993c0a.css.map": "/wisceReact/static/css/main.a7993c0a.css.map",
+    "main.d50fa963.js.map": "/wisceReact/static/js/main.d50fa963.js.map",
     "787.636be25e.chunk.js.map": "/wisceReact/static/js/787.636be25e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32967612.css",
-    "static/js/main.941e6731.js"
+    "static/css/main.a7993c0a.css",
+    "static/js/main.d50fa963.js"
   ]
 }
