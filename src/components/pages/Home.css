@@ -7,7 +7,7 @@
   
 .about {
   width: 100%;
-  height: calc(100vh - 75px);
+  height: calc(30px + 40vw);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +29,7 @@
   font-size: 30px;
 }
 .prompt svg {
-  font-size: 60px;
+  font-size: 50px;
   margin: 5px;
   color: #040926;
 }
@@ -38,9 +38,9 @@
   font-size: 35px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: right;*/
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
   background-color: #E5C2C0;
   margin-top: 5px;
 }
@@ -51,11 +51,12 @@
   
 .skills .list {
   list-style: none;
+  text-align: left;
   width: 60%;
 }
   
 .list span {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -74,6 +75,9 @@
   }
   .list {
     padding: 0;
+  }
+  .list span {
+    font-size: 25px;
   }
 
   .skills h2 {
@@ -103,12 +107,15 @@
   .skills h2 {
     font-size: 30px;
   }
+  .skills h4 {
+    font-size: 30px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 300px) {
   .about h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .about .prompt {
@@ -118,10 +125,15 @@
   }
 
   .skills {
+    font-size: 20px;
     text-align: center;
   }
   .list {
     padding: 0;
+  }
+
+  .list span {
+    font-size: 15px;
   }
 
   .skills h2 {
@@ -132,12 +144,12 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .about h2 {
-    font-size: 60px;
+    font-size: 70px;
   }
 
   .about .prompt {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 40px;
     width: 80%;
   }
 
@@ -147,9 +159,15 @@
   .list {
     padding: 0;
   }
+  .list span {
+    font-size: 25px;
+  }
 
   .skills h2 {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .skills h4 {
+    font-size: 35px;
   }
 }
 
@@ -173,7 +191,7 @@
   }
 
   .skills h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -197,6 +215,6 @@
   }
 
   .skills h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
