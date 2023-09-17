@@ -18,6 +18,7 @@
 
 .footer p {
   color: #040926;
+  font-family: 'Miriam Libre', sans-serif;
 }
 /* when screen is a certain size, it allows us to ensure that it scales properly and looks nice */
 @media only screen and (min-width: 390px) {

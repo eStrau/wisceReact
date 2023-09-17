@@ -7,12 +7,14 @@
     flex-direction: column;
     color: #EDC7CF;
     background-color: #92374D;
+    font-family: 'Miriam Libre', sans-serif;
 }
 .projects .projectTitle {
     text-align: center;
     color: white;
     font-size: 60px;
-    font-weight: bolder;
+    font-family: 'Mirza', serif;
+    /* font-weight: bolder; */
 }
 .projectList {
     width: 70vw;
@@ -48,6 +50,7 @@
 .projectItem h1 {
     font-size: 25px;
     color:#040926;
+    font-family: 'Mirza', serif;
 }
 
 @media only screen and (max-width: 800px) {

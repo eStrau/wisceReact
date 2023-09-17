@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
+  font-family: 'Mirza', serif;
   color: #040926;
 }
   
@@ -18,7 +18,7 @@
 }
  
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Miriam Libre', sans-serif;
   font-size: 80px;
   color: #EDC7CF;
   height: 30px;
@@ -62,6 +62,7 @@
   
 .list span {
   font-size: 24px;
+  font-family: 'Martel Sans', sans-serif;
 }
 
 /* Extra small devices (phones, 600px and down) */

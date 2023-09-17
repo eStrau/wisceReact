@@ -13,6 +13,7 @@
     text-align: center;
     color: #EDC7CF;
     font-size: 45px;
+    font-family: 'Miriam Libre', sans-serif;
 }
 .project img {
     width: calc(50vw + 200px);
@@ -22,6 +23,7 @@
     font-size: 35px;
     text-align: center;
     color: #040926;
+    font-family: 'Martel Sans', sans-serif;
 }
 .project svg {
     font-size: 60px;
