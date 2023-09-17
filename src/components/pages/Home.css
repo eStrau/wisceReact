@@ -45,8 +45,13 @@
   margin-top: 5px;
 }
   
-.skills h1 {
+.skills h2 {
   color: #040926;
+  margin-bottom: auto;
+}
+.skills h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
   
 .skills .list {
@@ -59,36 +64,11 @@
   font-size: 24px;
 }
 
-@media only screen and (max-width: 900px) {
-  .about h2 {
-    font-size: 80px;
-  }
-
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
-  }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-  .list span {
-    font-size: 25px;
-  }
-
-  .skills h2 {
-    font-size: 30px;
-  }
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
+    margin-bottom: 5px;
   }
 
   .about .prompt {
@@ -101,7 +81,7 @@
     text-align: center;
   }
   .list {
-    padding: 0;
+    padding: 0px;
   }
 
   .skills h2 {
@@ -115,11 +95,12 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
   .about h2 {
-    font-size: 40px;
+    font-size: 35px;
+    margin-bottom: 5px;
   }
 
   .about .prompt {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 20px;
     width: 80%;
   }
@@ -129,7 +110,7 @@
     text-align: center;
   }
   .list {
-    padding: 0;
+    padding: 0px;
   }
 
   .list span {
@@ -144,37 +125,40 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .about h2 {
-    font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 10px;
   }
 
   .about .prompt {
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 30px;
     width: 80%;
   }
 
   .skills {
     text-align: center;
   }
-  .list {
-    padding: 0;
-  }
+  
   .list span {
-    font-size: 25px;
+    font-size: 20px;
   }
-
+  .list {
+    margin-top: 0px;
+  }
   .skills h2 {
     font-size: 40px;
+
   }
   .skills h4 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .about h2 {
-    font-size: 70px;
+    font-size: 65px;
+    margin-bottom: 30px;
   }
 
   .about .prompt {
@@ -187,7 +171,7 @@
     text-align: center;
   }
   .list {
-    padding: 0;
+    padding: 0px;
   }
 
   .skills h2 {
@@ -199,6 +183,7 @@
 @media only screen and (min-width: 1200px) {
 .about h2 {
     font-size: 80px;
+    margin-bottom: 30px;
   }
 
   .about .prompt {
