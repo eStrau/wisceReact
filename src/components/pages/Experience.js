@@ -29,7 +29,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2023 - Present"
+          date="May 2023 - April 2024"
           iconStyle={{background: "#92374D", color: "#fff"}}
           icon = {<EngineeringIcon/>}
         >
@@ -45,7 +45,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="June 2023 - Present"
+          date="June 2023 - August 2023"
           iconStyle={{background: "#E5C2C0", color: "#fff"}}
           icon = {<WorkIcon/>}
         >
@@ -59,6 +59,63 @@ const Experience = () => {
           <p> •	Lead and facilitate breakout groups, which includes an advisory of 10-12 students each day to build culture and connection during the program</p>
           <p> •	Support students in class through teaching mini lessons, demonstrations, and answering questions</p> 
           <p> • Co-hosting Students Hours to assist with project questions and debugging and be actively engaging through discord to provide further support</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="January 2023 - Present"
+          iconStyle={{background: "#92374D", color: "#fff"}}
+        >
+          <h3 className="vertical-timeline-element-title"> 
+            Teaching Assistant
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            University of Florida | Applications of Discrete Structures
+          </h4>
+          <p> </p>
+          <p> </p>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="April 2024 - Present"
+          iconStyle={{background: "#92374D", color: "#fff"}}
+        >
+          <h3 className="vertical-timeline-element-title"> 
+            Corporate Relations Director
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Women in Computer Science & Engineering (WiCSE)
+          </h4>
+          <p> </p>
+          <p> </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="April 2024 - Present"
+          iconStyle={{background: "#92374D", color: "#fff"}}
+        >
+          <h3 className="vertical-timeline-element-title"> 
+            Lead Logistics Director
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            SwampHacks
+          </h4>
+          <p> </p>
+          <p> </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2024 - August 2024"
+          iconStyle={{background: "#92374D", color: "#fff"}}
+        >
+          <h3 className="vertical-timeline-element-title"> 
+            Software Engineering Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+             UKG
+          </h4>
+          <p> </p>
+          <p> </p>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
